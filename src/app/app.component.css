@@ -1,4 +1,4 @@
-:host {
+:host { /* this is reference to app-root component*/
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

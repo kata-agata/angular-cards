@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
+  // input decorator to indicate that this properties will be provided by the parent
   @Input() title='';
   @Input() imageUrl='';
   @Input() content='';
